@@ -87,21 +87,26 @@ class _CalculoWidgetState extends State<CalculoWidget> {
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Container(
-                  width: 400.0,
-                  height: 300.0,
-                  decoration: BoxDecoration(
-                    color: FlutterFlowTheme.of(context).black600,
-                    border: Border.all(
+                Material(
+                  color: Colors.transparent,
+                  elevation: 225.0,
+                  child: Container(
+                    width: 409.5,
+                    height: 300.0,
+                    decoration: BoxDecoration(
                       color: FlutterFlowTheme.of(context).black600,
-                      width: 6.0,
+                      shape: BoxShape.rectangle,
+                      border: Border.all(
+                        color: FlutterFlowTheme.of(context).tertiary400,
+                        width: 6.0,
+                      ),
                     ),
-                  ),
-                  child: Image.asset(
-                    'assets/images/cara134.jpg',
-                    width: 100.0,
-                    height: 100.0,
-                    fit: BoxFit.cover,
+                    child: Image.asset(
+                      'assets/images/cara134.jpg',
+                      width: 100.0,
+                      height: 100.0,
+                      fit: BoxFit.cover,
+                    ),
                   ),
                 ),
               ],
@@ -843,15 +848,15 @@ class _CalculoWidgetState extends State<CalculoWidget> {
                               0.0, 0.0, 0.0, 0.0),
                           iconPadding: EdgeInsetsDirectional.fromSTEB(
                               0.0, 0.0, 0.0, 0.0),
-                          color:
-                              FlutterFlowTheme.of(context).backgroundComponents,
-                          textStyle:
-                              FlutterFlowTheme.of(context).subtitle2.override(
-                                    fontFamily: 'Poppins',
-                                    color: Colors.white,
-                                  ),
+                          color: FlutterFlowTheme.of(context).primaryBtnText,
+                          textStyle: FlutterFlowTheme.of(context)
+                              .subtitle2
+                              .override(
+                                fontFamily: 'Poppins',
+                                color: FlutterFlowTheme.of(context).black600,
+                              ),
                           borderSide: BorderSide(
-                            color: Colors.transparent,
+                            color: FlutterFlowTheme.of(context).lineColor,
                             width: 1.0,
                           ),
                           borderRadius: BorderRadius.circular(8.0),
