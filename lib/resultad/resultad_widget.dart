@@ -232,7 +232,7 @@ class _ResultadWidgetState extends State<ResultadWidget> {
             children: [
               Container(
                 width: double.infinity,
-                height: 100.0,
+                height: 50.0,
                 decoration: BoxDecoration(
                   color: FlutterFlowTheme.of(context).secondaryBackground,
                   border: Border.all(
@@ -253,7 +253,7 @@ class _ResultadWidgetState extends State<ResultadWidget> {
               ),
               Container(
                 width: double.infinity,
-                height: 50.0,
+                height: 25.0,
                 decoration: BoxDecoration(
                   color: FlutterFlowTheme.of(context).secondaryBackground,
                   border: Border.all(
@@ -277,7 +277,7 @@ class _ResultadWidgetState extends State<ResultadWidget> {
               ),
               Container(
                 width: double.infinity,
-                height: 50.0,
+                height: 25.0,
                 decoration: BoxDecoration(
                   color: FlutterFlowTheme.of(context).secondaryBackground,
                   border: Border.all(
@@ -301,7 +301,7 @@ class _ResultadWidgetState extends State<ResultadWidget> {
               ),
               Container(
                 width: double.infinity,
-                height: 50.0,
+                height: 25.0,
                 decoration: BoxDecoration(
                   color: FlutterFlowTheme.of(context).secondaryBackground,
                   border: Border.all(
@@ -325,7 +325,7 @@ class _ResultadWidgetState extends State<ResultadWidget> {
               ),
               Container(
                 width: double.infinity,
-                height: 50.0,
+                height: 25.0,
                 decoration: BoxDecoration(
                   color: FlutterFlowTheme.of(context).secondaryBackground,
                   border: Border.all(
@@ -349,7 +349,7 @@ class _ResultadWidgetState extends State<ResultadWidget> {
               ),
               Container(
                 width: double.infinity,
-                height: 50.0,
+                height: 25.0,
                 decoration: BoxDecoration(
                   color: FlutterFlowTheme.of(context).secondaryBackground,
                   border: Border.all(
@@ -373,7 +373,7 @@ class _ResultadWidgetState extends State<ResultadWidget> {
               ),
               Container(
                 width: double.infinity,
-                height: 50.0,
+                height: 25.0,
                 decoration: BoxDecoration(
                   color: FlutterFlowTheme.of(context).secondaryBackground,
                   border: Border.all(
@@ -397,7 +397,7 @@ class _ResultadWidgetState extends State<ResultadWidget> {
               ),
               Container(
                 width: double.infinity,
-                height: 50.0,
+                height: 25.0,
                 decoration: BoxDecoration(
                   color: FlutterFlowTheme.of(context).secondaryBackground,
                   border: Border.all(
@@ -421,7 +421,7 @@ class _ResultadWidgetState extends State<ResultadWidget> {
               ),
               Container(
                 width: double.infinity,
-                height: 50.0,
+                height: 25.0,
                 decoration: BoxDecoration(
                   color: FlutterFlowTheme.of(context).secondaryBackground,
                   border: Border.all(
@@ -445,7 +445,7 @@ class _ResultadWidgetState extends State<ResultadWidget> {
               ),
               Container(
                 width: double.infinity,
-                height: 50.0,
+                height: 25.0,
                 decoration: BoxDecoration(
                   color: FlutterFlowTheme.of(context).secondaryBackground,
                   border: Border.all(
@@ -469,7 +469,7 @@ class _ResultadWidgetState extends State<ResultadWidget> {
               ),
               Container(
                 width: double.infinity,
-                height: 50.0,
+                height: 25.0,
                 decoration: BoxDecoration(
                   color: FlutterFlowTheme.of(context).secondaryBackground,
                   border: Border.all(
@@ -493,7 +493,7 @@ class _ResultadWidgetState extends State<ResultadWidget> {
               ),
               Container(
                 width: double.infinity,
-                height: 50.0,
+                height: 25.0,
                 decoration: BoxDecoration(
                   color: FlutterFlowTheme.of(context).secondaryBackground,
                   border: Border.all(
@@ -517,7 +517,7 @@ class _ResultadWidgetState extends State<ResultadWidget> {
               ),
               Container(
                 width: double.infinity,
-                height: 50.0,
+                height: 25.0,
                 decoration: BoxDecoration(
                   color: FlutterFlowTheme.of(context).secondaryBackground,
                   border: Border.all(
